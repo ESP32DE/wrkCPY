@@ -105,13 +105,17 @@ HostApplication=
 Launcher=
 UseLauncher=0
 DebugCWD=
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
 [Version Info]
 IncludeVerInfo=1
 AutoIncBuild=1
 MajorVer=0
 MinorVer=9
 Release=6
-Build=86
+Build=87
 Debug=0
 PreRelease=0
 Special=0
@@ -122,7 +126,7 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=
 FileDescription=
-FileVersion=0.9.6.86
+FileVersion=0.9.6.87
 InternalName=
 LegalCopyright=
 LegalTrademarks=

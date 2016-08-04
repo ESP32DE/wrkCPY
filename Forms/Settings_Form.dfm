@@ -102,7 +102,7 @@ object SettingsForm: TSettingsForm
     end
     object lblInterGen: TLabel
       Tag = 6
-      Left = 96
+      Left = 248
       Top = 24
       Width = 186
       Height = 13
@@ -164,7 +164,7 @@ object SettingsForm: TSettingsForm
     object cbLanguage: TComboBox
       Left = 8
       Top = 22
-      Width = 81
+      Width = 225
       Height = 21
       AutoDropDown = True
       Style = csDropDownList
