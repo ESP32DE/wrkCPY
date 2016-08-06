@@ -86,7 +86,8 @@ uses
   StatementMemo in 'Common\StatementMemo.pas',
   MultiLine_Block in 'Blocks\MultiLine_Block.pas',
   Folder_Block in 'Blocks\Folder_Block.pas',
-  BlockTabSheet in 'Common\BlockTabSheet.pas';
+  BlockTabSheet in 'Common\BlockTabSheet.pas',
+  dbgWIFI in 'Common\dbgWIFI.pas' {dbgTCPUDP};
 
 {$R *.res}
 
@@ -105,5 +106,6 @@ begin
   Application.CreateForm(THelpForm, HelpForm);
   Application.CreateForm(TNavigatorForm, NavigatorForm);
   Application.CreateForm(TMemoEditorForm, MemoEditorForm);
+  Application.CreateForm(TdbgTCPUDP, dbgTCPUDP);
   Application.Run;
 end.

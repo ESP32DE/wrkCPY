@@ -68,7 +68,8 @@ Pointer types must be declared AFTER their original ones.
 
 <!--
 Element ProcedureLabelKey
-Description: Label displayed close to flowchart for body of function that does not return specific data type; it should contain name of key (free to be added) present in translation file (.lng) in section "Others"
+Description: Label displayed close to flowchart for body of function that does not return specific data type; 
+it should contain name of key (free to be added) present in translation file (.lng) in section "Others"
 -->
 <ProcedureLabelKey>ProcedureLabelExample</ProcedureLabelKey>
 

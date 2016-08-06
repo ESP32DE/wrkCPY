@@ -109,6 +109,7 @@ type
     chkAutoUpdateCode: TCheckBox;
     lblFontSize: TLabel;
     cbFontSize: TComboBox;
+    btnPreviewSetting: TButton;
     procedure btnBrowseCCompClick(Sender: TObject);
     procedure CloseFormClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -124,6 +125,7 @@ type
     procedure ResetForm; override;
     procedure edtFontNameClick(Sender: TObject);
     procedure SetCbFontSize(const AFontSize: integer);
+    procedure btnPreviewSettingClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -200,7 +202,7 @@ procedure TSettingsForm.CloseFormClick(Sender: TObject);
 begin
     if Sender = btnSaveSettings then
        GSettings.LoadFromForm;
-    Close;
+       Close;
 end;
 
 procedure TSettingsForm.FormShow(Sender: TObject);
@@ -321,6 +323,12 @@ begin
    if i = -1 then
       i := 0;
    cbFontSize.ItemIndex := i;
+end;
+
+procedure TSettingsForm.btnPreviewSettingClick(Sender: TObject);
+begin
+   GSettings.LoadFromForm;
+
 end;
 
 end.

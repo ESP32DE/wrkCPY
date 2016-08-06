@@ -142,6 +142,11 @@ type
     miRemove1: TMenuItem;
     N17: TMenuItem;
     miInsertFunc: TMenuItem;
+    Extras1: TMenuItem;
+    DebugTCPUDP1: TMenuItem;
+    DebugConsole1: TMenuItem;
+    N18: TMenuItem;
+    Option1: TMenuItem;
 
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -215,6 +220,7 @@ type
     procedure miPaste1Click(Sender: TObject);
     procedure FuncMenuClick(Sender: TObject);
     procedure miRemove1Click(Sender: TObject);
+    procedure DebugTCPUDP1Click(Sender: TObject);
   private
     { Private declarations }
     FHistoryMenu: THistoryMenu;
@@ -240,7 +246,8 @@ uses
    Toolbox_Form, ApplicationCommon, About_Form, Main_Block, ParseGlobals, LocalizationManager,
    XMLProcessor, UserFunction, ForDo_Block, Return_Block, Project, Declarations_Form,
    Base_Block, Comment, Case_Block, jpeg, CommonInterfaces, Navigator_Form, CommonTypes,
-   LangDefinition, EditMemo_Form, BlockFactory, BlockTabSheet;
+   LangDefinition, EditMemo_Form, BlockFactory, BlockTabSheet,
+  dbgWIFI;
 
 type
    TDerivedControl = class(TControl);
@@ -1665,6 +1672,11 @@ begin
    end;
    if result > 0 then
       AParent.Add(FFuncMenu);
+end;
+
+procedure TMainForm.DebugTCPUDP1Click(Sender: TObject);
+begin
+dbgTCPUDP.Show;
 end;
 
 end.

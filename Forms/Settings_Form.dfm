@@ -1,6 +1,6 @@
 object SettingsForm: TSettingsForm
-  Left = 411
-  Top = 127
+  Left = 439
+  Top = 0
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = 'Settings'
@@ -1178,6 +1178,15 @@ object SettingsForm: TSettingsForm
         OnKeyPress = edtMarginLeftKeyPress
       end
     end
+  end
+  object btnPreviewSetting: TButton
+    Left = 320
+    Top = 688
+    Width = 57
+    Height = 17
+    Caption = 'preview'
+    TabOrder = 10
+    OnClick = btnPreviewSettingClick
   end
   object OpenDialog: TOpenDialog
     Tag = 3

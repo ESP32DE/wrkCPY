@@ -115,7 +115,7 @@ AutoIncBuild=1
 MajorVer=0
 MinorVer=9
 Release=6
-Build=87
+Build=96
 Debug=0
 PreRelease=0
 Special=0
@@ -126,7 +126,7 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=
 FileDescription=
-FileVersion=0.9.6.87
+FileVersion=0.9.6.96
 InternalName=
 LegalCopyright=
 LegalTrademarks=

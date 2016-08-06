@@ -1,6 +1,6 @@
 object MainForm: TMainForm
-  Left = 357
-  Top = 131
+  Left = 387
+  Top = 106
   HorzScrollBar.Tracking = True
   VertScrollBar.Tracking = True
   Align = alCustom
@@ -484,6 +484,22 @@ object MainForm: TMainForm
       Tag = 2
       Caption = 'About...'
       OnClick = miAboutClick
+    end
+    object Extras1: TMenuItem
+      Caption = 'Extras'
+      object DebugTCPUDP1: TMenuItem
+        Caption = 'Debug TCP-UDP'
+        OnClick = DebugTCPUDP1Click
+      end
+      object DebugConsole1: TMenuItem
+        Caption = 'Debug Console'
+      end
+      object N18: TMenuItem
+        Caption = '-'
+      end
+      object Option1: TMenuItem
+        Caption = 'Option'
+      end
     end
   end
   object PrintDialog: TPrintDialog
