@@ -1,13 +1,13 @@
 object MainForm: TMainForm
-  Left = 277
-  Top = 275
+  Left = 933
+  Top = 105
   HorzScrollBar.Tracking = True
   VertScrollBar.Tracking = True
   Align = alCustom
   AutoScroll = False
   Caption = 'devFlowcharter'
   ClientHeight = 448
-  ClientWidth = 777
+  ClientWidth = 335
   Color = clWhite
   DragKind = dkDock
   Font.Charset = DEFAULT_CHARSET
@@ -32,7 +32,7 @@ object MainForm: TMainForm
   object pgcPages: TPageControl
     Left = 0
     Top = 0
-    Width = 777
+    Width = 335
     Height = 448
     Align = alClient
     TabOrder = 0
@@ -508,8 +508,8 @@ object MainForm: TMainForm
     Left = 152
   end
   object ImageList1: TImageList
-    Left = 240
-    Top = 40
+    Left = 64
+    Top = 32
     Bitmap = {
       494C01010E001300040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000005000000001002000000000000050
@@ -1181,8 +1181,8 @@ object MainForm: TMainForm
   object pmTabs: TPopupMenu
     AutoPopup = False
     OnPopup = pmTabsPopup
-    Left = 160
-    Top = 88
+    Left = 32
+    Top = 32
     object miAddPage: TMenuItem
       Tag = 2
       Caption = 'Add Page'
@@ -1201,8 +1201,7 @@ object MainForm: TMainForm
   end
   object pmEdits: TPopupMenu
     OnPopup = pmEditsPopup
-    Left = 80
-    Top = 56
+    Top = 32
     object miUndo: TMenuItem
       Tag = 2
       Caption = 'Undo'
