@@ -21,6 +21,14 @@ type
     Label1: TLabel;
     Label2: TLabel;
     btnSendCmd: TButton;
+    RTOS1: TMenuItem;
+    NONOS1: TMenuItem;
+    RTOS2: TMenuItem;
+    Node1: TMenuItem;
+    USBTTL1: TMenuItem;
+    RS2321: TMenuItem;
+    BLE1: TMenuItem;
+    I2C1: TMenuItem;
     procedure SimpleTCPClient1Read(Sender: TObject; Stream: TStream);
     procedure CheckBox1Click(Sender: TObject);
     procedure btnSendCmdClick(Sender: TObject);

@@ -3,8 +3,8 @@ object dbgTCPUDP: TdbgTCPUDP
   Top = 152
   BorderStyle = bsToolWindow
   Caption = 'Debug Tool'
-  ClientHeight = 298
-  ClientWidth = 272
+  ClientHeight = 285
+  ClientWidth = 264
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -74,16 +74,40 @@ object dbgTCPUDP: TdbgTCPUDP
     OnClick = btnSendCmdClick
   end
   object MainMenu1: TMainMenu
-    Left = 304
-    Top = 352
+    Left = 16
+    Top = 88
     object ESP82661: TMenuItem
       Caption = 'ESP8266'
+      object RTOS1: TMenuItem
+        Caption = 'RTOS'
+      end
+      object NONOS1: TMenuItem
+        Caption = 'NONOS'
+      end
     end
     object ESP321: TMenuItem
       Caption = 'ESP32'
+      object RTOS2: TMenuItem
+        Caption = 'RTOS'
+      end
     end
     object Net1: TMenuItem
       Caption = 'Net'
+      object Node1: TMenuItem
+        Caption = 'Node'
+        object BLE1: TMenuItem
+          Caption = 'Bluetooth'
+        end
+        object USBTTL1: TMenuItem
+          Caption = 'USB TTL'
+        end
+        object RS2321: TMenuItem
+          Caption = 'RS232'
+        end
+        object I2C1: TMenuItem
+          Caption = 'I2C'
+        end
+      end
     end
   end
   object SimpleTCPServer1: TSimpleTCPServer
