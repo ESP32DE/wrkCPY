@@ -144,7 +144,11 @@ Will be written inside repeat..until block
 -->
 <RepeatLabel>do while</RepeatLabel>
 
-
+<!-- 
+Element LabelFuncCall
+Will be written at func block
+-->
+<LabelFuncCall>func call</LabelFuncCall>
 
 
 <WhileTemplate>while (%s1)
