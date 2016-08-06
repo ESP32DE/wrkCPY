@@ -237,18 +237,18 @@ FunctionLabelTiBasic=%s4##Func %s1
 ProgramLabelTiBasic=Prgm %s1
 
 [MainForm]
-miFile=File
-miProject=Project
-miOptions=Options
-miNew=New
-miOpen=Open...
-miReopen=Reopen
-miSave=Save
-miSaveAs=Save As...
-miClose=Close
-miPrint=Print...
-miPrint2=Print...
-miExit=Exit
+miFile=Datei
+miProject=Projekt
+miOptions=Optionen
+miNew=Neu
+miOpen=Öffnen...
+miReopen=Wieder Öffnen
+miSave=Speichern
+miSaveAs=Speichern als...
+miClose=Schliessen
+miPrint=Drucken...
+miPrint2=Drucken...
+miExit=Verlassen
 miDataTypes=Data Types
 miSubRoutines=Functions
 miDeclarations=Global Declarations
@@ -260,7 +260,7 @@ miGenerate=Generate Code
 miToolbox=Toolbox
 miSettings=Settings
 miManual=Help
-miAbout=About...
+miAbout=Über...
 miInsert=Insert
 miNewFlowchart=Flowchart
 miNewFunction=New Function
@@ -513,31 +513,31 @@ EditorHelp27=and drag-and-drop on desired position in editor.
 
 [ToolBoxForm]
 FormCaption=ToolBox
-sbAssign=Assignment
+sbAssign=Anweisung
 sbIf=If
 sbIfElse=If..Else
-sbInput=Input
-sbOutput=Output
+sbInput=Eingabe
+sbOutput=Ausgabe
 sbFor=For
 sbRepeat=Repeat
 sbWhile=While
-sbMultiAssign=Multiple Assignment
-sbFuncCall=Function Call
+sbMultiAssign=Mehrfache Answeisung
+sbFuncCall=Funktion Aufruf
 sbCase=Case
 sbReturn=Return
-sbFolder=Folder
+sbFolder=Ordner
 sbText=Text
 
 [NavigatorForm]
 FormCaption=Navigator
 
 [AboutForm]
-FormCaption=About...
+FormCaption=Über...
 
 [MemoEditorForm]
 FormCaption=Memo Editor
 btnOK=OK
-btnCancel=Cancel
+btnCancel=Abbruch
 
 
 
