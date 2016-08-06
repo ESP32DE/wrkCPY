@@ -125,13 +125,14 @@ begin
       with Canvas do
       begin
          Ellipse(BottomHook-5, Height-34, BottomHook+5, Height-24);
-         DrawTextLabel(TopHook.X-60, 9, FTrueLabel, true);
-         DrawTextLabel(TopHook.X+60, 9, FFalseLabel);
          MoveTo(TrueBranch.Hook.X, 30);
          LineTo(TopHook.X-60, 30);
          MoveTo(FalseBranch.Hook.X, 30);
          LineTo(TopHook.X+60, 30);
       end;
+      DrawTextLabel(TopHook.X-60, 9, FTrueLabel, true);
+      DrawTextLabel(TopHook.X+60, 9, FFalseLabel);
+      DrawSegoeLabel(TopHook.X-52, 35, GInfra.CurrentLang.LabelIfElse, true);
    end;
    DrawI;
 end;
