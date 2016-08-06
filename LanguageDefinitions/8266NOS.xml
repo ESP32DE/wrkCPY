@@ -133,22 +133,26 @@ Pointer types must be declared AFTER their original ones.
 
 
 <!--
-Element WhileLabel
-Will be written inside while..do block
+Label elements will follow
+These will be displayed in flowchart
 -->
-<WhileLabel>while</WhileLabel>
-
-<!--
-Element RepeatLabel
-Will be written inside repeat..until block
--->
-<RepeatLabel>do while</RepeatLabel>
-
-<!-- 
-Element LabelFuncCall
-Will be written at func block
--->
+<LabelWhile>while</LabelWhile>
+<LabelRepeat>do while</LabelRepeat>
+<LabelFor>for</LabelFor>
+<LabelCase>Case</LabelCase>
+<LabelIf>if</LabelIf>
+<LabelIfElse>if else</LabelIfElse>
 <LabelFuncCall>func call</LabelFuncCall>
+<LabelReturn>return</LabelReturn>
+<LabelFolder>folder</LabelFolder>
+<LabelText>text</LabelText>
+<LabelIn>input</LabelIn>
+<LabelOut>output</LabelOut>
+<LabelAssign>assign</LabelAssign>
+<LabelMultiAssign>assign</LabelMultiAssign>
+<LabelFontName>Segoe Print</LabelFontName>
+<LabelFontSize>10</LabelFontSize>
+
 
 
 <WhileTemplate>while (%s1)

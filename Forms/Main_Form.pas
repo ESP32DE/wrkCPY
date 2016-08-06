@@ -28,7 +28,7 @@ interface
 uses
   Windows, Graphics, Controls, Forms, StdCtrls, ExtCtrls, Menus, Printers,
   ImgList, Clipbrd, Types, OmniXML, SysUtils, Classes, ShellApi, StrUtils, Base_Form,
-  Messages, History, Dialogs, ComCtrls;
+  Messages, History, pngimage, Dialogs, ComCtrls;
 
 type
 
@@ -221,6 +221,7 @@ type
     procedure FuncMenuClick(Sender: TObject);
     procedure miRemove1Click(Sender: TObject);
     procedure DebugTCPUDP1Click(Sender: TObject);
+    procedure Option1Click(Sender: TObject);
   private
     { Private declarations }
     FHistoryMenu: THistoryMenu;
@@ -469,6 +470,7 @@ begin
     ExportDialog.FileName := GProject.Name;
     ExportDialog.Filter := i18Manager.GetString('XMLFilesFilter') + '|' +
                            i18Manager.GetString('BMPFilesFilter') + '|' +
+                           i18Manager.GetString('PNGFilesFilter') + '|' +   // a try with pngimage
                            i18Manager.GetString('JPGFilesFilter');
     ExportDialog.FilterIndex := 1;
     if ExportDialog.Execute then
@@ -497,6 +499,9 @@ begin
        begin
           if ExportDialog.FilterIndex = 2 then
              lGraphic := TBitmap.Create
+          else
+          if ExportDialog.FilterIndex = 3 then      // a try with pngimage
+             lGraphic := TPNGObject.Create          // *
           else
              lGraphic := TJPEGImage.Create;
           try
@@ -1677,6 +1682,11 @@ end;
 procedure TMainForm.DebugTCPUDP1Click(Sender: TObject);
 begin
 dbgTCPUDP.Show;
+end;
+
+procedure TMainForm.Option1Click(Sender: TObject);
+begin
+ShowMessage('coming soon');
 end;
 
 end.

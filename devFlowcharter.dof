@@ -94,7 +94,7 @@ OutputDir=
 UnitOutputDir=
 PackageDLLOutputDir=
 PackageDCPOutputDir=
-SearchPath=
+SearchPath=C:\libsDE7\pngimage
 Packages=vcl;rtl;dbrtl;adortl;vcldb;vclx;bdertl;vcldbx;ibxpress;dsnap;cds;bdecds;qrpt;teeui;teedb;tee;dss;teeqr;visualclx;visualdbclx;dsnapcrba;dsnapcon;VclSmp;vclshlctrls;vclie;xmlrtl;inet;inetdbbde;inetdbxpress;inetdb;nmfast;webdsnap;websnap;dbexpress;dbxcds;indy;dclOffice2k;parsdpk
 Conditionals=USE_FASTMM;USE_CODEFOLDING
 DebugSourceDirs=
@@ -115,7 +115,7 @@ AutoIncBuild=1
 MajorVer=0
 MinorVer=9
 Release=6
-Build=97
+Build=101
 Debug=0
 PreRelease=0
 Special=0
@@ -126,7 +126,7 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=
 FileDescription=
-FileVersion=0.9.6.97
+FileVersion=0.9.6.101
 InternalName=
 LegalCopyright=
 LegalTrademarks=
@@ -142,6 +142,9 @@ Item2=PORTABLE
 [HistoryLists\hlUnitAliases]
 Count=1
 Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[HistoryLists\hlSearchPath]
+Count=1
+Item0=C:\libsDE7\pngimage
 [HistoryLists\hlDCPOutput]
 Count=1
 Item0=USE_CLX

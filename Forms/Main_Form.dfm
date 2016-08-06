@@ -1,6 +1,6 @@
 object MainForm: TMainForm
-  Left = 387
-  Top = 106
+  Left = 277
+  Top = 275
   HorzScrollBar.Tracking = True
   VertScrollBar.Tracking = True
   Align = alCustom
@@ -499,6 +499,7 @@ object MainForm: TMainForm
       end
       object Option1: TMenuItem
         Caption = 'Option'
+        OnClick = Option1Click
       end
     end
   end
