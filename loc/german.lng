@@ -1,4 +1,4 @@
-; English translation file for devFlowcharter
+; German translation file for devFlowcharter
 
 [CommonParserMessages]
 BadCondition=Invalid syntax of condition statement
@@ -62,12 +62,12 @@ DefValue=default
 
 [Others]
 Ok=Ok
-Cancel=Cancel
-Confirmation=Confirm
-Error=Error
+Cancel=Abbruch
+Confirmation=Bestätigen
+Error=Fehler
 Import=Import
 Row=Row
-Warning=Warning
+Warning=Warnung
 AttrInfo=[Attribute "%s"]: Incorrect value - "%s"
 ValidationError=Validation Error
 ConvertError=Conversion Error
